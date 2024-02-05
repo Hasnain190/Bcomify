@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <meta name="description"
+    content="We are bcomify, we are shopify experts, we develop stores, design them, redesign them, migrate them, we have best pricing available for all our customers.  " />
+    <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  fontFamily: {
+                      inter: ['Inter', 'sans-serif'],
+                  },
+                  animation: {
+                      'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                  },
+                  keyframes: {
+                      'infinite-scroll': {
+                          from: { transform: 'translateX(0)' },
+                          to: { transform: 'translateX(-100%)' },
+                      }
+                  }                    
+              },
+          },
+      };
+  </script>
+    <title>Bcomify | The shopify expert</title>
+    <link href="./output.css" rel="stylesheet"/>
+  </head>
+  <body class="bg-black text-white">
+  
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="/">
+          
+          <span class="ml-3 text-xl">BCOMIFY</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-white" href="/work">Our Projects</a>
+          <a class="mr-5 hover:text-white" href="/pricings">Pricings</a>
+          <a class="mr-5 hover:text-white" href="/src/contact.html">Contact</a>
+          <a class="mr-5 hover:text-white" href="/about">About</a>
+        </nav>
+       
+      </div>
+    </header>
+    
+    <section class="banner-section bg-image home-page-banner  grid place-items-center p-10 "
+    >
+      <div class="container  grid sm:grid-cols-1 md:grid-cols-2 place-items-center gap-10 pt-6 ">  
+        <div class="banner-content grid place-items-center mr-5  ">
+          <h1 class="text-6xl  font-bold p-3 mr-2">
+            Bcomify | The shopify Expert
+          </h1>
+          <p class="p-3 mb-4">
+            At Bcomify, we specialize in transforming your e-commerce vision
+            into reality on the Shopify platform. As dedicated Shopify experts,
+            we bring a wealth of experience and expertise to empower your online
+            business. Whether you're launching a new store, optimizing an
+            existing one, or seeking tailored solutions, Bcomify is your partner
+            in success.
+          </p>
+          <div class="btns">
+          <a href="/contact">
+            <button type="button" class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-transparent border-2 text-lg font-bold text-white">
+              Contact Us!
+              <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+            </button>
+          </a>
+<a href="/contact">
+  <button type="button" class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-transparent border-2 text-lg font-bold text-white">
+    Get a Quota
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
+</a>
+</div>
+        </div>
+        <div class="banner-slider ">
+          <img
+            src="https://www.expertvillagemedia.com//sites-files/assets/images/homebanner.png"
+            alt="image_bcomify"
+            class="transform translate-x-0 translate-y-0 translate-z-0"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-section  mb-3">
+      <div class="container text-center">
+        <h2 class="text-4xl font-bold m-3">
+          Trusted by <span class="hg text-blue-700">Shopify
+          Brands </span>  Worldwide
+        </h2>
+
+        <div class="w-full inline-flex flex-nowrap overflow-hidden">
+          
+            <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-24">
+                <div class="text-center">
+    
+                    <!-- Logo Carousel animation -->
+                    <div
+                        x-data="{}"
+                        x-init="$nextTick(() => {
+                            let ul = $refs.logos;
+                            ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                            ul.nextSibling.setAttribute('aria-hidden', 'true');
+                        })"
+                        class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+                    >
+                        <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                            <li>
+                                <img src="./assets/brands/ALIEXPRESS.BZ.png" class="" alt="Aliexpressbz" />
+                            </li>
+                            <li>
+                                <img src="./assets/brands/Amazoline.png" alt="amazoline" class="" />
+                            </li>
+                            <li>
+                              <img src="./assets/brands/bringo.jpg" alt="bringo" class="" />
+                          </li>
+                            <li>
+                                <img src="./assets/brands/glamfull_1.jpg" class="" alt="glamfull" />
+                            </li>
+                            <li>
+                              <img src="./assets/brands/MUSICAL BOXING.png" class="" alt="musicalboxing" />
+                            </li>
+                            <li>
+                              <img src="./assets/brands/pinsy.png" class="" alt="pinsy" />
+                          </li>
+                        </ul>                
+                    </div>
+                    <!-- End: Logo Carousel animation -->
+                    
+                </div>
+    
+            </div>
+       
+          </div>
+      </div>
+        
+
+    </section>
+
+    <section class="our-work-section mt-10 p-10">
+      <div class="container">
+        <h2 class="text-center text-4xl font-semibold mb-10">
+          Explore Our Work
+        </h2>
+        <div
+          class="our-works grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+        >
+          <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+            <div class="logo">
+              <a href="" target="_blank" rel="nofollow"
+                ><img
+                  src="./assets/brands/NUELIT™.png"
+                  alt="Nuelit"
+              /></a>
+            </div>
+            <h3 class="text-4xl my-5 font-bold">
+              Shopify store for Wooden Glow Torch
+            </h3>
+            <p class="my-5">
+              Shopify for crafting exquisite wall-mounted wooden glow torch. These lights were not just ordinary fixtures; they were designed to not only illuminate the room but also create a captivating ambiance. As a result, Nuelit's lights became a staple in high-end hotels, boutique stores, and stylish homes around the world.
+            </p>
+            <img
+              src="./assets/works/neulit.png"
+              alt="Nuelit"
+            />
+          </div>
+
+          <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+            <div class="logo">
+              <a href="" target="_blank" rel="nofollow"
+                ><img
+                  src="./assets/brands/glamfull_1.jpg"
+                  alt="Glamfull"
+              /></a>
+            </div>
+            <h3 class="text-4xl my-5 font-bold">
+              Shopify store for Valentines Gifts
+            </h3>
+            <p class="my-5">
+              Your premier destination for all things love and romance. Glamfull  Store is designed to capture the essence of love and help you express your feelings in the most delightful and thoughtful ways. Whether you're celebrating a long-lasting relationship, a new romance, or even a cherished friendship, our curated collection of gifts is sure to make your Valentine's Day memorable
+            </p>
+            <img
+              src="./assets/works/glamful_sm.png"
+              alt=""
+            />
+          </div>
+          <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+            <div class="logo">
+              <a href="" target="_blank" rel="nofollow"
+                ><img
+                  src="./assets/brands/bringo.jpg"
+                  alt="Orinoco"
+              /></a>
+            </div>
+            <h3 class="text-4xl my-5 font-bold">
+              Shopify store for a Valentine's Gifts
+            </h3>
+            <p class="my-5">
+              Redefine your living experience and let your home tell your unique story with our carefully curated pieces. Welcome to a world where your style finds its perfect home.
+            </p>
+            <img
+              src="./assets/works/orinocoshopping_sm.png"
+              alt=""
+            />
+          </div>
+          <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+            <div class="logo">
+              <a href="" target="_blank" rel="nofollow"
+                ><img
+                  src="./assets/brands/MUSICAL BOXING.png"
+                  alt="musicalboxing"
+              /></a>
+            </div>
+            <h3 class="text-4xl my-5 font-bold">
+              Shopify store for Fitness
+            </h3>
+            <p class="my-5">
+              Welcome to the MusicalBoxing Combining music with boxing , Traditional boxing training is often monotonous , but this product combines music with boxing, making the fitness process more fun and easier to stick to.
+            </p>
+            <img
+              src="./assets/works/musicalboxing.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="./work.html"
+            class="transition duration-300 ease-in-out bg-transparent border-white border-2 text-white hover:text-white hover:bg-gray-800 focus:bg-green-500 focus:text-white px-4 py-2 hover:px-5 hover:py-3 rounded mr-2"
+          >
+            Explore Our Projects
+          </a>
+        </div>
+      </div>
+     
+    </section>
+
+    <section class="our-services mt-10 mx-4 grid place-items-center p-10">
+      <div class="container">
+        <h2 class="text-center text-4xl font-semibold mb-10">Our Services</h2>
+
+        <div
+          class="services-wr grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4 "
+          
+        >
+          <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64">
+            <div class="box flex flex-col items-center">
+              <div class="image-sp-1 my-5">
+                <img
+                  src="./assets/services_vectors/pencil-cross-svgrepo-com (2).svg"
+                  alt="pencile_svg"
+                  class="w-9"
+                />
+              </div>
+              <h4 class="text-3xl font-semibold my-2 text-center">
+                Shopify store design and development
+              </h4>
+              <p class="my-2 text-center">
+                Need a professional Shopify site? We create visually appealing,
+                user-friendly online stores aligned with your brand and goals.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64">
+            <div class="box flex flex-col items-center">
+              <div class="image-sp-1 my-5">
+                <img
+                  src="./assets/services_vectors/refresh.svg"
+                  alt="refresh"
+                  class="w-10"
+                />
+              </div>
+              <h4 class="text-3xl font-semibold my-2 text-center">
+                Website Redesign
+              </h4>
+              <p class="my-2 text-center">
+                Give your website a new stunning look that boost sales and reflects professionalism
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box border-2 rounded-[25px] p-3  border-gray-600 text-center max-w-64">
+            <div class="box flex flex-col items-center">
+              <div class="image-sp-1 my-5">
+                <img
+                  src="./assets/services_vectors/move-up-svgrepo-com.svg"
+                  alt="migration_icon"
+                  class="w-10"
+                />
+              </div>
+              <h4 class="text-3xl font-semibold my-2 ">
+                Store Migration
+              </h4>
+              <p class="my-2 text-center">
+                We will help you in migrating from one platform to another in seamless way. Design of site & whole data will be migrated.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box border-2 border-gray-600 rounded-[25px] px-6 p-3 max-w-64 text-center">
+            <div class="box flex flex-col items-center">
+              <div class="image-sp-1 my-5">
+                <img
+                  src="./assets/services_vectors/maintenance-warning-svgrepo-com.svg"
+                  alt="maintenance"
+                  class="w-10"
+                />
+              </div>
+              <h4 class="text-3xl font-semibold my-2 ">
+                Store Maintenance
+              </h4>
+              <p class="my-2 px-3  ">
+                Our site maintenance plan includes comprehensive support for your store, updates, inventory management, & more.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64 text-center">
+            <div class="box flex flex-col items-center">
+              <div class="image-sp-1 my-5">
+                <img
+                  src="./assets/services_vectors/marketing-svgrepo-com.svg"
+                  alt="marketing"
+                  class="w-9"
+                />
+              </div>
+              <h4 class="text-3xl font-semibold my-2">
+                Digital Marketing Services
+              </h4>
+              <p class="my-2">
+                Maximize your online presence with our digital marketing services ranging from SEO, social media marketing, PPC & FB ads.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-clients-section min-h-screen ">
+      <div class="container">
+        <h2 class="text-center text-4xl font-semibold mb-10">
+          Our Satisfied Customers
+        </h2>
+     <div class=" p-3 ">
+       <!-- Logo Carousel animation -->
+       <div
+       x-data="{}"
+       x-init="$nextTick(() => {
+           let ul = $refs.logos;
+           ul.insertAdjacentHTML('afterend', ul.outerHTML);
+           ul.nextSibling.setAttribute('aria-hidden', 'true');
+       })"
+       class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+   >
+       <ul x-ref="logos" class="flex  justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+           <li>
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              Couldn't have asked for a better experience with them. They were knowledgeable, professional, and kept me informed throughout the process. My store is running smoothly and I'm confident it will help me grow my business.
+            
+            <div class="text-2xl font-bold m-3">Amazoline</div>
+            </div>
+           </li>
+           <li>
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              I needed help customizing my Shopify theme and they came to the rescue! They were fast, efficient, and understood exactly what I wanted. Thanks for making my store look amazing
+            
+            <div class="text-2xl font-bold m-3">Aliexpress.bz</div>
+            </div>
+  
+           </li>
+           <li>
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              Really happy with them! They did a fantastic job building my Shopify store. It looks great, works smoothly, and they were super patient with all my changes. Highly recommend!
+            
+            <div class="text-2xl font-bold m-3">Orinoco</div>
+            </div>
+  
+         </li>
+           <li>
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              Highly recommended 
+            
+            <div class="text-2xl font-bold m-3">Pinsy</div>
+            </div>
+  
+           </li>
+           <li>
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              You can trust them. They know their stuff. If you need to develop your store, you can hire them.
+            
+            <div class="text-2xl font-bold m-3">Glamfull</div>
+            </div>
+  
+           </li>
+           <li>
+            
+            <div class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+              Really happy with them! They did a fantastic job building my Shopify store. It looks great, works smoothly, and they were super patient with all my changes. Highly recommend!
+            
+            <div class="text-2xl font-bold m-3">Orinoco</div>
+            </div>
+  
+         </li>
+       </ul> 
+       </div>
+       
+   </div>
+   <!-- End: Logo Carousel animation -->
+   
+          
+         
+        
+        
+      </div>
+    </section>
+
+    <section class="call-to-action">
+
+<div class=" flex  flex-col items-center justify-center overflow-hidden p-8 sm:p-12">
+  <div class="w-full max-w-4xl rounded-[25px]  border-gray-100 bg-gray-600 p-14">
+    <div class="flex flex-col items-center gap-4">
+     
+      <h3 class="mt-2 max-w-2xl text-center text-2xl font-bold leading-tight sm:text-3xl md:text-4xl md:leading-tight">So what are you waiting for? Contact Us now!</h3>
+  
+ <a href="/contact">
+   <button type="button" class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-green-500 text-lg font-bold text-white">
+     Contact Us!
+     <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+    </button>
+  </a>
+</main>
+     
+    </div>
+  </div>
+</div>
+      </div>
+      
+    </section>
+
+
+  
+<footer class="text-gray-600 border-gray-600 border-t-2 border-b-0 border-r-0 border-l-0 ">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center ">
+        <span class="ml-3 text-xl text-white">Bcomify</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-50">The Shopify Experts</p>
+    </div>
+    
+    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+      <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Links</h2>
+        <nav class="list-none mb-10">
+        
+          <li>
+            <a href="/contact" class="text-gray-400 hover:text-white">Contact Us</a>
+          </li>
+          <li>
+            <a href="/about" class="text-gray-400 hover:text-white">About Us</a>
+          </li>
+          <li>
+            <a href="/works" class="text-gray-400 hover:text-white">Works</a>
+          </li>
+          <li>
+            <a href="/pricings" class="text-gray-400 hover:text-white">Pricings</a>
+          </li>
+         
+        </nav>
+      </div>
+
+      <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Policies</h2>
+        <nav class="list-none mb-10">
+        
+          <li>
+            <a href="/privacy_policy" class="text-gray-400 hover:text-white">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/tandc" class="text-gray-400 hover:text-white">Term and Conditions</a>
+          </li>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-gray-400 text-center">BCOMIFY | All rights reserved</div>
+  <!-- <div class="bg-gray-100">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Bcomify
+       
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div> -->
+  </div>
+</footer>
+    
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
