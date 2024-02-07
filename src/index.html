@@ -38,78 +38,77 @@
 
 <body class="bg-black text-white">
 
-   <section class="top-welcome-section grid place-items-center ">
-   
-     
-      
-       
-        <div x-data="{}" x-init="$nextTick(() => {
+  <section class="top-welcome-section grid place-items-center ">
+
+
+
+
+    <div x-data="{}" x-init="$nextTick(() => {
            let ul = $refs.logos;
            ul.insertAdjacentHTML('afterend', ul.outerHTML);
            ul.nextSibling.setAttribute('aria-hidden', 'true');
        })"
-          class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-          <ul x-ref="logos"
-            class="flex  justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-            <li>
-             
-                
-
-                <div class="text-2xl ">Welcome</div>
-              
-            </li>
-            <li>
-              
-               
-
-                <div class="text-2xl ">Bienvenu</div>
-              
-
-            </li>
-            <li>
-              
-                <div class="text-2xl ">مرحباً</div>
-        
-
-            </li>
-            <li>
-             
-                <div class="text-2xl ">Bienvenido</div>
-          
-
-            </li>
-            <li>
-              
-                <pre class="text-2xl ">欢迎</pre>
-         
-
-            </li>
-            <li>
-
-            
-                <pre class="text-2xl ">いらっしゃいませ</pre>
-           
-
-            </li>
-          </ul>
-        </div>
-
-     
-  
-   
-  </section> 
+      class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+      <ul x-ref="logos"
+        class="flex  justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
 
 
 
-  <nav class="bg-[#4E4FEB] border-gray-200 dark:bg-gray-900">
+          <div class="text-2xl ">Welcome</div>
+
+        </li>
+        <li>
+
+
+
+          <div class="text-2xl ">Bienvenu</div>
+
+
+        </li>
+        <li>
+
+          <div class="text-2xl ">مرحباً</div>
+
+
+        </li>
+        <li>
+
+          <div class="text-2xl ">Bienvenido</div>
+
+
+        </li>
+        <li>
+
+          <pre class="text-2xl ">欢迎</pre>
+
+
+        </li>
+        <li>
+
+
+          <pre class="text-2xl ">いらっしゃいませ</pre>
+
+
+        </li>
+      </ul>
+    </div>
+
+
+
+
+  </section>
+
+
+
+  <nav class="bg-[#4E4FEB] border-gray-200 ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://bcomify.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img loading="lazy"src="/src/assets/icon.png" class="h-8" alt="Bco" />
+        <img loading="lazy" src=" /assets/icon.png" class="h-8" alt="Bco" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap      ">BCOMIFY</span>
       </a>
-      <button data-collapse-toggle="navbar-default" type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400         dark:focus:ring-gray-600"
-        aria-controls="navbar-default" aria-expanded="false">
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white ring-2 ring-gray-200 focus:text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -121,21 +120,21 @@
           class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  text-white ">
 
           <li>
-            <a href="/src/about.html"
-              class="block py-2 px-3     rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">About</a>
+            <a href=" /about.html"
+              class="block py-2 px-3 hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  ">About</a>
           </li>
           <li>
-            <a href="/src/work.html"
-              class="block py-2 px-3     rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Our
+            <a href=" /work.html"
+              class="block py-2 px-3  hover:text-black   rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Our
               Works</a>
           </li>
           <li>
-            <a href="/src/pricings.html"
-              class="block py-2 px-3     rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Pricing</a>
+            <a href=" /pricings.html"
+              class="block py-2 px-3   hover:text-black  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Pricing</a>
           </li>
           <li>
-            <a href="/src/contact.html"
-              class="block py-2 px-3     rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Contact</a>
+            <a href=" /contact.html"
+              class="block py-2 px-3   hover:text-black  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0      md:p-0                                        ">Contact</a>
           </li>
         </ul>
       </div>
@@ -157,7 +156,7 @@
           in success.
         </p>
         <div class="btns">
-          <a href="/src/contact.html">
+          <a href=" /contact.html">
             <button type="button"
               class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-transparent border-2 text-lg font-bold text-white">
               Contact Us!
@@ -166,7 +165,7 @@
               </div>
             </button>
           </a>
-          <a href="/src/contact.html">
+          <a href=" /contact.html">
             <button type="button"
               class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-transparent border-2 text-lg font-bold text-white">
               Get a Quota
@@ -178,7 +177,7 @@
         </div>
       </div>
       <div class="banner-slider ">
-        <img loading="lazy"loading="lazy" src="./assets/works/homebanner.png" alt="image_bcomify"
+        <img loading="lazy" loading="lazy" src="./assets/works/homebanner.png" alt="image_bcomify"
           class="transform translate-x-0 translate-y-0 translate-z-0" />
       </div>
     </div>
@@ -206,22 +205,24 @@
               <ul x-ref="logos"
                 class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/ALIEXPRESS.BZ.png" class="" alt="Aliexpressbz" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/ALIEXPRESS.BZ.png" class=""
+                    alt="Aliexpressbz" />
                 </li>
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/Amazoline.png" alt="amazoline" class="" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/Amazoline.png" alt="amazoline" class="" />
                 </li>
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/bringo.jpg" alt="bringo" class="" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/bringo.jpg" alt="bringo" class="" />
                 </li>
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/glamfull_1.jpg" class="" alt="glamfull" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/glamfull_1.jpg" class="" alt="glamfull" />
                 </li>
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/MUSICAL BOXING.png" class="" alt="musicalboxing" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/MUSICAL BOXING.png" class=""
+                    alt="musicalboxing" />
                 </li>
                 <li>
-                  <img loading="lazy"loading="lazy"src="./assets/brands/pinsy.png" class="" alt="pinsy" />
+                  <img loading="lazy" loading="lazy" src="./assets/brands/pinsy.png" class="" alt="pinsy" />
                 </li>
               </ul>
             </div>
@@ -237,30 +238,34 @@
 
   </section>
 
-  <section class="our-work-section mt-10 p-10 grid place-items-center">
+  <section class="our-work-section mt-10  md:p-10 lg:p-10 sm:p-0  grid place-items-center">
     <div class="container">
       <h2 class="text-center text-4xl font-semibold mb-10">
         Explore Our Work
       </h2>
-      <div class="our-works grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+      <div class="our-works grid grid-cols-1 md:grid-cols-2 sm:px-0 lg:grid-cols-3 gap-4">
+        <div class="our-work border-2 rounded-[25px] flex flex-col p-5  m-5 sm:m-0 md:m-5 lg:m-5">
           <div class="logo">
-            <a href="https://nuelit.com/" target="_blank" rel="nofollow"><img loading="lazy"loading="lazy"src="./assets/brands/NUELIT™.png" alt="Nuelit" /></a>
+            
+            <img loading="lazy" loading="lazy"
+            src="./assets/brands/NUELIT.png" alt="Nuelit" />
           </div>
-          <h3 class="text-4xl my-5 font-bold">
+          <h3 class="text-4xl my-5 font-bold sm:text-1xl lg:text-4xl md:text-3xl">
             Shopify store for Wooden Glow Torch
           </h3>
-          <p class="my-5">
+          <p class="my-5 sm:text-md">
             Shopify for crafting exquisite wall-mounted wooden glow torch. These lights were not just ordinary fixtures;
             they were designed to not only illuminate the room but also create a captivating ambiance. As a result,
             Nuelit's lights became a staple in high-end hotels, boutique stores, and stylish homes around the world.
           </p>
-          <img loading="lazy"loading="lazy"src="./assets/works/neulit.png" alt="Nuelit" />
+          <a href="https://nuelit.com/" target="_blank" rel="nofollow">
+          <img loading="lazy" loading="lazy" src="./assets/works/neulit.png" alt="Nuelit" /></a>
         </div>
 
-        <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+        <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5  ">
           <div class="logo">
-            <a href="https://glamfull.store/" target="_blank" rel="nofollow"><img loading="lazy"loading="lazy"src="./assets/brands/glamfull_1.jpg" alt="Glamfull" /></a>
+           <img loading="lazy" loading="lazy"
+                src="./assets/brands/glamfull_1.jpg" alt="Glamfull" />
           </div>
           <h3 class="text-4xl my-5 font-bold">
             Shopify store for Valentines Gifts
@@ -270,12 +275,13 @@
             of love and help you express your feelings in the most delightful and thoughtful ways. Whether you're
             celebrating a long-lasting relationship, a new romance, or even a cherished friendship, our curated
             collection of gifts is sure to make your Valentine's Day memorable
-          </p>
-          <img loading="lazy"loading="lazy"src="./assets/works/glamful_sm.png" alt="" />
+          </p> <a href="https://glamfull.store/" target="_blank" rel="nofollow">
+          <img loading="lazy" loading="lazy" src="./assets/works/glamful_sm.png" alt="" /></a>
         </div>
         <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
           <div class="logo">
-            <a href="https://orinocoshopping.com/" target="_blank" rel="nofollow"><img loading="lazy"loading="lazy"src="./assets/brands/bringo.jpg" alt="Orinoco" /></a>
+            <img loading="lazy" loading="lazy"
+                src="./assets/brands/bringo.jpg" alt="Orinoco" />
           </div>
           <h3 class="text-4xl my-5 font-bold">
             Shopify store for a Valentine's Gifts
@@ -283,13 +289,13 @@
           <p class="my-5">
             Redefine your living experience and let your home tell your unique story with our carefully curated pieces.
             Welcome to a world where your style finds its perfect home.
-          </p>
-          <img loading="lazy"loading="lazy"src="./assets/works/orinocoshopping_sm.png" alt="" />
+          </p><a href="https://orinocoshopping.com/" target="_blank" rel="nofollow">
+          <img loading="lazy" loading="lazy" src="./assets/works/orinocoshopping_sm.png" alt="" />
         </div>
-        <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5">
+        <div class="our-work border-2 rounded-[25px] flex flex-col p-5 m-5 md:col-start-2 md:col-end-3 ">
           <div class="logo">
-            <a href="https://musicalboxing.com/" target="_blank" rel="nofollow"><img loading="lazy"loading="lazy"src="./assets/brands/MUSICAL BOXING.png"
-                alt="musicalboxing" /></a>
+            <img loading="lazy" loading="lazy"
+                src="./assets/brands/MUSICAL BOXING.png" alt="musicalboxing" /></a>
           </div>
           <h3 class="text-4xl my-5 font-bold">
             Shopify store for Fitness
@@ -297,13 +303,13 @@
           <p class="my-5">
             Welcome to the MusicalBoxing Combining music with boxing , Traditional boxing training is often monotonous ,
             but this product combines music with boxing, making the fitness process more fun and easier to stick to.
-          </p>
-          <img loading="lazy"loading="lazy"src="./assets/works/musicalboxing.png" alt="" />
+          </p><a href="https://musicalboxing.com/" target="_blank" rel="nofollow">
+          <img loading="lazy" loading="lazy" src="./assets/works/musicalboxing.png" alt="" /></a>
         </div>
       </div>
       <div class="text-center">
-        <a href="/src/work.html"
-          class="transition duration-300 ease-in-out bg-transparent border-white border-2 text-white hover:text-white hover:bg-gray-800 focus:bg-green-500 focus:text-white px-4 py-2 hover:px-5 hover:py-3 rounded mr-2">
+        <a href=" /work.html"
+          class="transition duration-300 ease-in-out bg-transparent border-white border-2 text-white hover:text-white  rounded-lg hover:bg-gray-800 focus:bg-green-500 focus:text-white px-4 py-2 hover:px-5 hover:py-3 rounded mr-2">
           Explore Our Projects
         </a>
       </div>
@@ -315,11 +321,12 @@
     <div class="container">
       <h2 class="text-center text-4xl font-semibold mb-10">Our Services</h2>
 
-      <div class="services-wr grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4 ">
+      <div class="services-wr grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4 justify-items-center ">
         <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/pencil-cross-svgrepo-com (2).svg" alt="pencile_svg" class="w-9" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/pencil-cross-svgrepo-com (2).svg"
+                alt="pencile_svg" class="w-9" />
             </div>
             <h4 class="text-3xl font-semibold my-2 text-center">
               Shopify store design and development
@@ -334,7 +341,8 @@
         <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/refresh.svg" alt="refresh" class="w-10" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/refresh.svg" alt="refresh"
+                class="w-10" />
             </div>
             <h4 class="text-3xl font-semibold my-2 text-center">
               Website Redesign
@@ -348,7 +356,8 @@
         <div class="service-box border-2 rounded-[25px] p-3  border-gray-600 text-center max-w-64">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/move-up-svgrepo-com.svg" alt="migration_icon" class="w-10" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/move-up-svgrepo-com.svg"
+                alt="migration_icon" class="w-10" />
             </div>
             <h4 class="text-3xl font-semibold my-2 ">
               Store Migration
@@ -363,7 +372,8 @@
         <div class="service-box border-2 border-gray-600 rounded-[25px] px-6 p-3 max-w-64 text-center">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/maintenance-warning-svgrepo-com.svg" alt="maintenance" class="w-10" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/maintenance-warning-svgrepo-com.svg"
+                alt="maintenance" class="w-10" />
             </div>
             <h4 class="text-3xl font-semibold my-2 ">
               Store Maintenance
@@ -378,7 +388,8 @@
         <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64 text-center">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/marketing-svgrepo-com.svg" alt="marketing" class="w-9" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/marketing-svgrepo-com.svg"
+                alt="marketing" class="w-9" />
             </div>
             <h4 class="text-3xl font-semibold my-2">
               Digital Marketing Services
@@ -393,7 +404,8 @@
         <div class="service-box border-2 rounded-[25px] p-3 border-gray-600 max-w-64 text-center">
           <div class="box flex flex-col items-center">
             <div class="image-sp-1 my-5">
-              <img loading="lazy"loading="lazy"src="./assets/services_vectors/search-loaction-svgrepo-com.svg" alt="marketing" class="w-12" />
+              <img loading="lazy" loading="lazy" src="./assets/services_vectors/search-loaction-svgrepo-com.svg"
+                alt="marketing" class="w-12" />
             </div>
             <h4 class="text-3xl font-semibold my-2">
               Product Hunting Services
@@ -408,97 +420,110 @@
       </div>
     </div>
   </section>
-  <!-- <section class="trust-bages grid place-items-center  my-40">
-    <div class="container flex flex-row justify-center items-center w-fit gap-5">
-      <img loading="lazy"loading="lazy"src="./assets/trust_bages/lock.png" class=" w-52 m-5" alt="">
-      <img loading="lazy"loading="lazy"src="./assets/trust_bages/primium.png" class=" w-52 m-5" alt="">
-      <img loading="lazy"loading="lazy"src="./assets/trust_bages/second.png" class="w-52  m-5" alt="">
+  <section class="trust-bages grid place-items-center  my-40">
+    <div class="container  grid md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 place-items-center  gap-5">
+      <img loading="lazy" src="./assets/trust_bages/lock.png" class=" h-52 w-auto m-5" alt="">
+      <img  loading="lazy" src="./assets/trust_bages/primium.png" class="h-52 w-auto   m-5" alt="">
+      <img loading="lazy" src="./assets/trust_bages/second.png" class="h-52 w-auto m-5" alt="">
     </div>
-  </section> -->
-  
-  <section class="our-reviews-section grid place-items-center ">
-    <div class="container">
-      <h2 class="text-center text-5xl font-bold m-10">
+  </section>
+
+  <section class="our-reviews-section flex justify-center  ">
+    <div class="container text-center">
+      <h2 class=" text-5xl font-bold m-10">
         Reviews
       </h2>
-      <div class=" p-3 ">
-       
-        <div x-data="{}" x-init="$nextTick(() => {
+
+      <div class="w-full inline-flex flex-nowrap overflow-hidden">
+
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-24">
+          <div class="text-center">
+
+            <div x-data="{}" x-init="$nextTick(() => {
            let ul = $refs.logos;
            ul.insertAdjacentHTML('afterend', ul.outerHTML);
            ul.nextSibling.setAttribute('aria-hidden', 'true');
-       })"
-          class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-          <ul x-ref="logos"
-            class="flex  justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-            <li>
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                Couldn't have asked for a better experience with them. They were knowledgeable, professional, and kept
-                me informed throughout the process. My store is running smoothly and I'm confident it will help me grow
-                my business.
+       })" class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+              <ul x-ref="logos"
+                class="flex  justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                <li>
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    Couldn't have asked for a better experience with them. They were knowledgeable, professional, and
+                    kept
+                    me informed throughout the process. My store is running smoothly and I'm confident it will help me
+                    grow
+                    my business.
 
-                <div class="text-2xl font-bold m-3">Amazoline</div>
-              </div>
-            </li>
-            <li>
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                I needed help customizing my Shopify theme and they came to the rescue! They were fast, efficient, and
-                understood exactly what I wanted. Thanks for making my store look amazing
+                    <div class="text-2xl font-bold m-3">Amazoline</div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    I needed help customizing my Shopify theme and they came to the rescue! They were fast, efficient,
+                    and
+                    understood exactly what I wanted. Thanks for making my store look amazing
 
-                <div class="text-2xl font-bold m-3">Aliexpress.bz</div>
-              </div>
+                    <div class="text-2xl font-bold m-3">Aliexpress.bz</div>
+                  </div>
 
-            </li>
-            <li>
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                Highly impressed with the professionalism and expertise of this Shopify expert. They were able to address all my concerns and deliver a top-notch website that exceeded my expectations. Definitely recommend
+                </li>
+                <li>
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    Highly impressed with the professionalism and expertise of this Shopify expert. They were able to
+                    address
+                    all my concerns and deliver a top-notch website that exceeded my expectations. Definitely recommend
 
-                <div class="text-2xl font-bold m-3">Orinoco</div>
-              </div>
+                    <div class="text-2xl font-bold m-3">Orinoco</div>
+                  </div>
 
-            </li>
-            <li>
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                Amazing service! The Shopify expert helped me set up my online store quickly and efficiently. They were super responsive to all my questions and went above and beyond to make sure everything looked perfect. Highly recommend!
+                </li>
+                <li>
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    Amazing service! The Shopify expert helped me set up my online store quickly and efficiently. They
+                    were
+                    super responsive to all my questions and went above and beyond to make sure everything looked
+                    perfect.
+                    Highly recommend!
 
-                <div class="text-2xl font-bold m-3">Pinsy</div>
-              </div>
+                    <div class="text-2xl font-bold m-3">Pinsy</div>
+                  </div>
 
-            </li>
-            <li>
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                Such a great Shopify expert! They helped me customize my store exactly how I envisioned it. Quick turnaround time and excellent communication throughout. Definitely my go-to for any future projects.
+                </li>
+                <li>
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    Such a great Shopify expert! They helped me customize my store exactly how I envisioned it. Quick
+                    turnaround time and excellent communication throughout. Definitely my go-to for any future projects.
 
-                <div class="text-2xl font-bold m-3">Glamfull</div>
-              </div>
+                    <div class="text-2xl font-bold m-3">Glamfull</div>
+                  </div>
 
-            </li>
-            <li>
+                </li>
+                <li>
 
-              <div
-                class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
-                Outstanding service from this Shopify expert! They were patient, attentive, and delivered exactly what I needed for my online store. So grateful for their expertise and support
+                  <div
+                    class="rectangle_review_box bg-{#24242c} border-2 rounded-[25px] min-w-[300px] text-center border-gray-600 p-7 leading-loose">
+                    Outstanding service from this Shopify expert! They were patient, attentive, and delivered exactly
+                    what I
+                    needed for my online store. So grateful for their expertise and support
 
-                <div class="text-2xl font-bold m-3">Orinoco</div>
-              </div>
+                    <div class="text-2xl font-bold m-3">Orinoco</div>
+                  </div>
 
-            </li>
-          </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
         </div>
+      </div>
 
       </div>
-     
 
-
-
-
-
-    </div>
   </section>
 
   <section class="call-to-action">
@@ -510,7 +535,7 @@
           <h3 class="m-5 pb-5 text-center  font-bold leading-tight sm:text-3xl md:text-6xl md:leading-loose">So what are
             you waiting for ? Contact Us now!</h3>
 
-          <a href="/src/contact.html">
+          <a href=" /contact.html">
             <button type="button"
               class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-[#4E4FEB] text-lg font-bold text-white">
               Contact Us!
@@ -528,6 +553,30 @@
 
   </section>
 
+  <section class="social">
+
+    <div class=" flex  flex-col items-center justify-center overflow-hidden p-8 sm:p-12">
+      <div class="w-full  rounded-[25px]  border-gray-100 bg-gray-600 p-9">
+
+        <div class="text-5xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center p-5">Socials</div>
+        <div class="flex justify-around items-center gap-4 ">
+
+
+
+          <a href="https://www.tiktok.com/@becomify?_t=8jfIYxIHohT&_r=1">
+            <img src="./assets/socials/tiktok.webp" alt="tiktok" class="w-28">
+          </a>
+          <a href="https://youtube.com/@bcomify?si=6dzI6o1MNCDCsVpB">
+            <img src="./assets/socials/youtube.webp" alt="youtube">
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
 
 
   <footer class="bg-[#4E4FEB] text-gray-300 border-gray-600 border-t-2 border-b-0 border-r-0 border-l-0 ">
@@ -536,7 +585,7 @@
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
         <a href="https://www.bcomify.com/"
           class="flex title-font font-medium items-center md:justify-center justify-center ">
-          <img loading="lazy"src="./assets/icon_long.png" alt="bcomify_logo ">
+          <img loading="lazy" src="./assets/icon_long.png" alt="bcomify_logo ">
 
         </a>
         <p class="mt-2 text-sm text-gray-50">The Shopify Experts</p>
@@ -548,16 +597,16 @@
           <nav class="list-none mb-10">
 
             <li>
-              <a href="/src/contact.html" class="text-gray-200 hover:text-white">Contact Us</a>
+              <a href=" /contact.html" class="text-gray-200 hover:text-white">Contact Us</a>
             </li>
             <li>
-              <a href="/src/about.html" class="text-gray-200 hover:text-white">About Us</a>
+              <a href=" /about.html" class="text-gray-200 hover:text-white">About Us</a>
             </li>
             <li>
-              <a href="/src/work.html" class="text-gray-200 hover:text-white">Works</a>
+              <a href=" /work.html" class="text-gray-200 hover:text-white">Works</a>
             </li>
             <li>
-              <a href="/src/pricings.html" class="text-gray-200 hover:text-white">Pricings</a>
+              <a href=" /pricings.html" class="text-gray-200 hover:text-white">Pricings</a>
             </li>
 
           </nav>
@@ -568,13 +617,13 @@
           <nav class="list-none mb-10">
 
             <li>
-              <a href="/src/privacy_policy.html" class="text-gray-200 hover:text-white">Privacy Policy</a>
+              <a href=" /privacy_policy.html" class="text-gray-200 hover:text-white">Privacy Policy</a>
             </li>
             <li>
-              <a href="/src/tandc.html" class="text-gray-200 hover:text-white">Term and Conditions</a>
+              <a href=" /tandc.html" class="text-gray-200 hover:text-white">Term and Conditions</a>
             </li>
             <li>
-              <a href="/src/credits.html" class="text-gray-200 hover:text-white">Attributions</a>
+              <a href=" /credits.html" class="text-gray-200 hover:text-white">Attributions</a>
             </li>
 
           </nav>
@@ -584,36 +633,7 @@
 
     <div class="text-white text-center">Developed by <a class="font-bold" href="https://www.realenlight.com">Real
         Enlight</a></div>
-    <!-- <div class="bg-gray-100">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-500 text-sm text-center sm:text-left">© 2024 Bcomify
-       
-      </p>
-      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <a class="text-gray-500">
-          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-          </svg>
-        </a>
-        <a class="ml-3 text-gray-500">
-          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-          </svg>
-        </a>
-        <a class="ml-3 text-gray-500">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-          </svg>
-        </a>
-        <a class="ml-3 text-gray-500">
-          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-            <circle cx="4" cy="4" r="2" stroke="none"></circle>
-          </svg>
-        </a>
-      </span>
-    </div> -->
+
     </div>
   </footer>
 
@@ -623,7 +643,7 @@
 
 
 
-    var wa_btnSetting = { "btnColor": "#4E4FEB", "ctaText": "WhatsApp Us", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "right", "whatsAppNumber": "+19165076877", "welcomeMessage": "", "zIndex": 999999, "btnColorScheme": "light" };
+    var wa_btnSetting = { "btnColor": "#4E4FEB", "ctaText": "WhatsApp Us", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "right", "whatsAppNumber": "+923477783974", "welcomeMessage": "", "zIndex": 999999, "btnColorScheme": "light" };
     window.onload = () => {
       _waEmbed(wa_btnSetting);
     };
